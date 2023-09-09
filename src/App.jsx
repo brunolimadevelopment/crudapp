@@ -28,7 +28,7 @@ function App() {
   const getUsers = async () => {
 
     try {
-      const res = await axios.get("http://localhost:8800"); // o await é para espera o axios fazer um get
+      const res = await axios.get("https://apicrud-3hx00809u-brunolimadevelopment.vercel.app"); // o await é para espera o axios fazer um get
       setUsers(res.data.sort((a, b) => (a.nome > b.nome ? 1 : -1))); // ordena os nomes por ordem alfabetica
     } catch (error) {
       toast.error(error);

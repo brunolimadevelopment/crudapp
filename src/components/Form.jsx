@@ -72,7 +72,7 @@ const Form = ({ getUsers, OnEdit, setOnEdit }) => {
         // verifica se é uma editção
         if (OnEdit) {
 
-            await axios.put("http://localhost:8800/" + OnEdit.id, {
+            await axios.put("https://apicrud-3hx00809u-brunolimadevelopment.vercel.app/" + OnEdit.id, {
                 nome: user.nome.value,
                 email: user.email.value,
                 fone: user.fone.value,
@@ -82,7 +82,7 @@ const Form = ({ getUsers, OnEdit, setOnEdit }) => {
 
         } else {
 
-            await axios.post("http://localhost:8800", {
+            await axios.post("https://apicrud-3hx00809u-brunolimadevelopment.vercel.app", {
                 nome: user.nome.value,
                 email: user.email.value,
                 fone: user.fone.value,
