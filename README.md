@@ -40,7 +40,7 @@ ___
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/brunolimadevelopment/crudapp/blob/main/MIT%20License.txt) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/brunolimadevelopment/crudapp/blob/main/MITLicense.txt) for more information.
 
 ___
 
