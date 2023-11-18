@@ -56,7 +56,7 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
     // evento excluir - asyncrono pois estamos trabalhando com o banco de dados
     const handleDelete = async (id) => {
 
-        await axios.delete("http://localhost:8800/" + id).then(({ data }) => {
+        await axios.delete("https://apicrud-3hx00809u-brunolimadevelopment.vercel.app/" + id).then(({ data }) => {
             const newArray = users.filter((user) => user.id !== id);
 
             setUsers(newArray);
